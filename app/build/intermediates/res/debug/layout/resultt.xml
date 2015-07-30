@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp">
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/ubulls"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="110dp"
+                android:id="@+id/ucows"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="43dp"
+                android:layout_toRightOf="@+id/ucows"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/cnum"
+                android:textColor="#ff00ff"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="235dp"
+                android:id="@+id/cbulls"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="310dp"
+                android:id="@+id/ccows"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/home/jai/AndroidStudioProjects/B&amp;C/app/src/main/res/layout/resultt.xml -->
